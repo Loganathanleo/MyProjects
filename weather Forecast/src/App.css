@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.weather {
+  background-image: url("./components/assets/images/weather.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-content: center;
+}
+
+.scattered-clouds {
+  background-image: url("./components/assets/images/scattered_Clouds.jpg");
+}
+
+.cloudy {
+  background-image: url("./components/assets/images/clouds-overcast.jpg");
+}
+
+.broken-clouds {
+  background-image: url("./components/assets/images/broken_clouds.jpeg");
+}
+
+.few-clouds {
+  background-image: url("./components/assets/images/few_clouds.jpeg");
+}
+
+.clear-sky {
+  background-image: url("./components/assets/images/clear-sky.jpeg");
+}
+
+.content{
+  padding: 1rem;
+  position: sticky;
+  left: 7%;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 80rem;
+  border-radius: 1rem;
+}
+
+.tableContent{
+  width: 60rem;
+  margin-left: 10rem;
+}
+
+thead{
+  background-color: black;
+  color: white;
+}
+
+/* table {
+  border-collapse: collapse;
+  border-radius: 1rem;
+  border: 1px solid grey; 
+}
+
+th, td {
+  border: 1px solid grey; 
+  padding: 0.5rem;
+  height: 0.8rem;
+} */
+
+table, th, td{
+  height: 1.5rem;
+  border-radius: 1rem;
+}
+
+td{
+  border-collapse: collapse;
+  border: 1px solid grey;
+  border-radius: 1rem;
+}
+
+.buttons{
+  margin-left: 25rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+button{
+  width: 4rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button:disabled {
+  background-color: lightgrey; 
+  color: darkgrey; 
+  cursor: not-allowed; 
+}
+
+.weatherContent{
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  position: sticky;
+  left: 25%;
+  width: 50rem;
+  text-align: center;
+  border-radius: 1rem;
+  height: 12rem;
+}
